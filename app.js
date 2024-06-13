@@ -54,12 +54,16 @@
 
 //      TODO App Program
 
-let tasks = [];
+let tasks = ["code",  "coffee", "workout", "repeat", "get repeated"];
     console.log("--------------------");
     for(i=0; i<tasks.length; i++){
         console.log(i+1, tasks[i]);
     }
     console.log("--------------------");
+    console.log("Type 'add' to add a task.");
+    console.log("Type 'delete' to delete a task.");
+    console.log("Type 'list' to list added tasks.");
+    console.log("Type 'quit' to close the app.");
 let ask = prompt("Enter what do you wanna do.");
 while(true){
     if(ask == "quit" || ask == "Quit"){
